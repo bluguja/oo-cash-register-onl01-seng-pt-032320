@@ -18,11 +18,10 @@ class CashRegister
         count +=1
       end
     else
-      @items << title
+      @items << title #name
     end
-      #self.total += price*quantity
-    @last_transaction_amount += price * quantity
-    @last_transaction_amount
+      def add_item_2(cost, title, number = 1)
+    self.total = cost * number
     
   end
 
