@@ -20,9 +20,9 @@ class CashRegister
     else
       @items << title #name
     end
-      def add_item_2(cost, title, number = 1)
+      def add_item_2( title, number = 1)
         
-      self.total = cost * number
+      self.total = @last_transaction_amount * number
     
       end
 
