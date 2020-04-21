@@ -11,11 +11,11 @@ class CashRegister
 
 
   def add_item(title,price,quantity = 1)
-    if quantity>1
-      count=0
-      while count<quantity
+    if quantity > 1
+      count = 0
+      while count < quantity
         @items << title
-        count+=1
+        count +=1
       end
     else
       @items << title
