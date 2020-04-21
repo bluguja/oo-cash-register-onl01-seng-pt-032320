@@ -18,7 +18,7 @@ class CashRegister
         count +=1
       end
     else
-      @items << title #name
+      @items << title 
     end
       self.last_transaction = amount * quantity
     
