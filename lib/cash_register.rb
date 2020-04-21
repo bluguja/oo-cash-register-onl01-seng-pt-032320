@@ -21,9 +21,10 @@ class CashRegister
       @items << title #name
     end
       def add_item_2(cost, title, number = 1)
-    self.total = cost * number
+        
+      self.total = cost * number
     
-  end
+      end
 
   def apply_discount
     if @discount > 0
