@@ -15,7 +15,7 @@ class CashRegister
       count=0
       while i<quantity
         @items << title
-        i+=1
+        count+=1
       end
     else
       @items << title
