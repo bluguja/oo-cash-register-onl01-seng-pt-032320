@@ -20,8 +20,8 @@ class CashRegister
     else
       @items << title
     end
-      self.total += price*quantity
-    @last_transaction_amount = self.total
+      #self.total += price*quantity
+    @last_transaction_amount = self.total+= price * quantity
     @last_transaction_amount
     
   end
